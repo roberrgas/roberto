@@ -1,0 +1,47 @@
+* {
+	margin:0px;
+	padding:0px;
+	font-family: arial;
+	box-sizing: border-box;
+}
+			
+body{ background-image: url("fondo.jpg");
+	background-size:100% 100%;
+	background-attachment:fixed;}
+
+#header {
+	background-color: #b88e1c;
+	width:500px;
+	height:500px;
+	left: 700px;
+	position: absolute;
+    top: 250px;
+}
+#cabecera{
+top: 5px;
+height:70px;
+text-align:center;
+}
+
+#dia{
+	position:absolute;
+	top:167px;
+	left:165px;
+}
+#hora{
+	position:absolute;
+	top:257px;
+	left:205px;
+}
+#cortes{
+	position:absolute;
+	padding: 5px;
+	text-align: left;  
+	top:340px;
+	left:145px;
+}
+#enviar{
+	position:absolute;
+	left:160px;
+	top:450px;
+}

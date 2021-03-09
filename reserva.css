@@ -1,0 +1,98 @@
+* {
+	margin:0px;
+	padding:0px;
+	font-family: arial;
+	box-sizing: border-box;
+}
+			
+body{ background-image: url("fondo.jpg");
+	background-size:100% 100%;
+	background-attachment:fixed;}
+
+#registrar{
+    float:left;
+    width:80%;
+    font-size:24px;
+    font-weight:bold;
+    color:#FFF;
+    text-align:right;
+}
+
+#envoltura{
+    position:absolute;
+    top:50%;
+    left: 705px;
+    top: 280px;
+    width: 530px;
+
+}
+
+#contenedor{
+background-color:#b88e1c;
+box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+border-radius:10px;
+}
+
+#cabecera{
+border-bottom: 5px solid #333;
+padding-top: 5px;
+height:70px;
+line-height:50px;
+text-align:center;
+}
+
+#cuerpo{
+background:#ececec;
+border:solid #ccc;
+border-width: 2px 0;
+padding:15px 35px;
+}
+
+label{
+color: #666;
+font-weight: bold
+}
+
+#usuario{
+background:#ffc 0 2px; 
+padding-left: 25px; 
+}
+
+#contrasenia{
+background:#ffc  0 5px;
+padding-left: 25px;
+
+}
+
+.boton{
+background: #ccc;
+background: -webkit-linear-gradient(top,#fc6,#f63);
+background: linear-gradient(top,#fc6,#f63);
+color: #666;
+width: 120px;
+}
+.boton:active{
+position: relative;
+top: 3px;
+}
+
+#pie{
+border-top: 5px solid #333;
+color: #fff;
+font-size: 11px;
+height: 25px;
+line-height: 24px;
+text-align: center;
+}
+
+form,p{
+margin:0;
+}
+
+p{
+padding-bottom: 5px;
+}
+
+p#ingresar{
+padding-top: 10px;
+}

@@ -1,0 +1,116 @@
+body{
+	background-image: url('fondo.jpg');
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+
+#cuadro{
+	background-color:#b88e1c;
+	border-style:solid;
+	border: 2px solid #b88e1c;
+	border-radius: 12px;
+	position:relative;
+	width:610px;
+	left:620px;
+	top:240px;
+	height:715px;
+}
+
+#portada{
+	position:absolute;
+	left:90px;
+	top:0px;
+}
+
+#nombre{
+	position:absolute;
+	top:190px;
+	left:25px;
+}
+
+#apellidos{
+	top:190px;
+	left:350px;
+	position:absolute;
+}
+
+#fecha{
+	position:absolute;
+	top:247px;
+	left:25px;
+}
+
+#direccion{
+	position:absolute;
+	left:350px;
+	top:310px;
+}
+
+#DNI{
+	position:absolute;
+	left:25px;
+	top:430px;
+}
+
+#email{
+	position:absolute;
+	top:310px;
+	left:25px;
+}
+
+#telefono{
+	position:absolute;
+	top:372px;
+	left:25px;
+}
+
+#nacionalidad{
+	position:absolute;
+	left:350px;
+	top:370px;
+}
+
+#provincia{
+	position:absolute;
+	top:247px;
+	left:350px;
+}
+
+#redes{
+	position:absolute;
+	left:170px;
+	top:475px;
+}
+
+#peluquero{
+	position:absolute;
+	left:350px;
+	top:420px;
+}
+
+#enviar{
+	position:absolute;
+	left:50px;
+	top:670px;
+}
+
+#insta{
+	position:absolute;
+	left:150px;
+	top:75px;
+}
+
+#twitter{
+	position:absolute;
+	left:150px;
+	top:120px;
+}
+
+#facebook{
+	position:absolute;
+	left:150px;
+	top:165px;
+}
+
+
+

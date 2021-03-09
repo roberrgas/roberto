@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+</html>
+	<head>
+		<meta charset="UFF-8"/>
+		<meta name="author" content="Roberto Chafla"/>
+		<title>Formulario</title>
+		<link rel="stylesheet" href="formulario.css" type="text/css"/>
+	</head>
+	<body>
+		<form name="" action="envio.html" method="post">
+		<div id="cuadro">
+			<div id="portada">
+						<img src="foto.jpg" width="400px" height="180px"/>
+			</div>
+			<div id="nombre">
+					<label>Nombre*:</label><br><input type="text" maxlength="15" size="15" required="required"><br><!--disabled="disabled" readonly="yes"-->
+			</div>
+			<div id="apellidos">
+				
+					<label>Apellidos*:</label><br><input type="text" maxlength="20" size="15"><br>
+			</div>
+			<div id="fecha">
+				
+					<label>Fecha de nacimiento*:</label><br><input type="date" size="15" required="required"/><br>
+			</div>
+			<div id="provincia">
+		
+				<label>Provincia*:</label><br><input type="text" maxlength="15" size="15"><br>
+			</div>
+			<div id="nacionalidad">
+				
+					<label>Nacionalidad*:</label><br><input type="text" maxlength="15" size="15" required="required"><br>
+			</div>
+			<div id="telefono">
+				
+					<label>Telefono*:</label><br><input type="text" maxlength="9" size="15" required="required"><br>
+				
+			</div>
+			<div id="email">
+				
+					<label>Email*:</label><br><input type="email" maxlength="25" size="15" name="email"/><br/>
+			</div>
+			<div id="direccion">
+				
+					<label>Direccion*:</label><br><input type="text" maxlength="40" size="15"><br>
+			</div>
+			
+			<div id="DNI">
+				
+					<label>DNI*:</label><br><input type="text"  placeholder="8 digitos 1 letra" pattern="[0-9]{8}[A-Z]{1}" required="required" size="15"><br>
+			</div>
+			<div id="redes">
+				<h1><u>Redes sociales</u></h1>
+					<label>Instagram<input type="checkbox" checked="checked"/>
+						<div id="insta">
+							<a href="https://www.instagram.com/?hl=es"><img src="instagram.jpg" style="width:40px;height:30px;border:0;"></a>
+						</div>
+					</label><br/>		
+					<label>Twitter<input type="checkbox"/>
+						<div id="twitter">
+							<a href="https://twitter.com/?lang=es"><img src="twitter.png" style="width:40px;height:30px;border:0;"></a>
+						</div>
+					</label><br/>	
+					<label>Facebook<input type="checkbox"/>
+						<div id="facebook">
+							<a href="https://es-es.facebook.com/"><img src="facebook.jpg" style="width:42px;height:30px;border:0;"></a>
+						</div>
+					</label>
+			</div>
+			<div id="peluquero">
+				<label>Peluquero preferido*:</label><br><input type="Text" size="15"/><br>
+			</div>
+			<div id="enviar">
+				<input type="submit" value="Enviar" style="background-color:green;color:white;font-size:20px;"/>
+				<input type="reset" value="Cancelar" style="background-color:red;color:white;font-size:20px;"/>
+			</div>
+		</div>
+		</form>
+	</body>
+</html>

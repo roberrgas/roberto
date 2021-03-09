@@ -1,0 +1,241 @@
+
+* {
+	margin:0px;
+	padding:0px;
+	font-family: arial;
+	box-sizing: border-box;
+}
+			
+body{ background-image: url("fondo.jpg");
+	background-size:100% 100%;
+	background-attachment:fixed;}
+
+#header {
+	background-color: white;
+	width:1250px;
+	height:1750px;
+	left: 330px;
+	position: absolute;
+	top: 0px;
+}
+#menu {
+	width:1250px;
+	height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	top: 170px;
+	border-radius: 10px;
+	left:500px;
+	position: absolute;
+
+}
+
+ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color:rgb(228, 44, 44);
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:#434343;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul li ul {
+	right:-140px;
+	top:50px;
+}
+#pelu{
+	height: 35px;
+	width: 485px;
+	top: 105px;
+	font-family:Arial, Helvetica, sans-serif;
+	left: 750px;
+	position:absolute;
+	border-radius: 5px;
+	background-color: bisque;
+	padding: auto;
+}
+
+.titulo{
+	position:absolute;
+	left:950px;
+	top:330px;
+	height:40px;
+	width: 600px;
+	background-color:white;
+	font-size: x-large;
+}
+.fotobarbero{
+				left:420px;
+				top:355px;
+				position: absolute;
+				border-radius:5px;
+}
+.fotobarbero2{
+	left:470px;
+	top:1055px;
+	position: absolute;
+	border-radius:5px;
+}
+.fotobarbero3{
+	left:420px;
+	top:0px;
+	position: absolute;
+	border-radius:5px;
+}
+.fotobarbero4{
+	left:350px;
+	top:0px;
+	position: absolute;
+	border-radius:5px;
+}
+.textofoto{
+	position:absolute;
+	left:520px;
+	top:50px;
+	height:40px;
+	width: 600px;
+	background-color:white;
+	font-size: large;
+}
+.textofoto2{
+	position:absolute;
+	left:0px;
+	top:160px;
+	height:40px;
+	width: 600px;
+	background-color:white;
+	font-size: medium;
+}
+.texto2{
+	position:absolute;
+	left:580px;
+	top:250px;
+	height:40px;
+	width: 550px;
+	background-color:white;
+	font-size: large;
+}
+.titulo2{
+	position:absolute;
+	left:740px;
+	top:220px;
+	height:40px;
+	width: 200px;
+	background-color:white;
+	font-size: x-large;
+}
+.peluqueros{
+	position:absolute;
+	left:780px;
+	top:880px;
+	height:40px;
+	width: 600px;
+	background-color:white;
+	font-size: x-large;
+}
+#alado {
+	width:1250px;
+	height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	top: 190px;
+	border-radius: 10px;
+	left:950px;
+	position: absolute;
+
+}
+ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float:left;
+}
+
+.si li a {
+	color:rgb(228, 44, 44);
+	text-decoration:underline;
+	padding:10px 12px;
+	display:inline;
+}
+#ala {
+	width:1050px;
+	height:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	top: 0px;
+	border-radius: 10px;
+	left:150px;
+	position: absolute;
+
+}
+ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float:left;
+}
+
+.siu li a {
+	color:rgb(228, 44, 44);
+	text-decoration:underline;
+	padding:10px 12px;
+	display:inline;
+}
+
+#footer  { width: 70px;
+				display: flex;
+				margin: 50px 20px;}
+						
+#instagram { width:30px;
+				height:30px;
+				left: 900px;
+				top:1500px;
+				position: absolute;
+				border-radius:25px;}
+				
+#twitter { width:30px;
+				height:30px;
+				left: 700px;
+				top:1500px;
+				position: absolute;
+				border-radius:25px;				}
+
+#facebook { width:30px;
+				height:30px;
+				left: 500px;
+				top:1500px;
+				position: absolute;
+				border-radius:25px;				}
+				
+#h1{
+	width:100px;
+				height:100px;
+				left: 1000px;
+				top:1500px;
+				position: absolute;
+				border-radius:25px;		
+}
